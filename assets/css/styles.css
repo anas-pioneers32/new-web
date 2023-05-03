@@ -1436,8 +1436,8 @@ Services Style
 }
 
 .services .icon img {
-  margin-bottom: 10px;
-  max-width: 60px;
+  margin-bottom: 3px;
+  max-width: 80px;
   min-width: 60px;
 }
 
@@ -2206,6 +2206,7 @@ responsive
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+    margin: 0;
   }
   .header-area .main-nav .logo h4 {
     font-size: 30px;
@@ -2244,6 +2245,7 @@ responsive
   }
   .services ul.nacc li .right-image img {
     float: none;
+    padding-top: 15px;
   }
   .our-portfolio .section-heading,
   .about-us .section-heading,
