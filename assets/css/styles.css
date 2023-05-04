@@ -571,7 +571,7 @@ header
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 18px;
   color: #2a2a2a;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
@@ -963,6 +963,16 @@ preloader
   z-index: 9999;
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
+  flex-direction: column; /* Align items vertically */
+  height: 100vh;
+}
+#js-preloader img {
+  max-width: 100%;
+}
+
+#js-preloader .preloader-inner {
+  margin-top: 0.5rem; /* Reduce the gap between the image and dots */
+  text-align: center;
 }
 
 .js-preloader.loaded {
@@ -1000,7 +1010,7 @@ preloader
 }
 
 .preloader-inner {
-  position: relative;
+  position: absolute;
   width: 142px;
   height: 40px;
   background: #fff;
@@ -2385,4 +2395,10 @@ responsive
   .testi-img {
     margin-bottom: 25px;
   }
+}
+.column {
+  margin-bottom: 150px;
+  width: 40%; /* Set the width of the column */
+  height: 550px;
+  box-sizing: border-box; /* Include padding in the width of the column */
 }
