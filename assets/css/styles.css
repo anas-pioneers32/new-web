@@ -395,6 +395,12 @@ intro
 header
 --------------------------------------------- 
 */
+.column {
+  margin-bottom: 150px;
+  width: 40%; /* Set the width of the column */
+  height: 550px;
+  box-sizing: border-box; /* Include padding in the width of the column */
+}
 
 .pre-header {
   background-color: #efefef;
@@ -1923,6 +1929,9 @@ contact
 .contact-us {
   padding-top: 130px;
 }
+.prev-nex-but {
+  text-align: center;
+}
 .industry {
   display: flex;
   align-items: center;
@@ -2114,6 +2123,31 @@ responsive
 --------------------------------------------- 
 */
 
+@media (max-width: 2690px) {
+  .column {
+    margin-bottom: 800px;
+    width: 60%; /* Set the width of the column */
+    height: 550px;
+    box-sizing: border-box; /* Include padding in the width of the column */
+  }
+}
+@media (max-width: 2250px) {
+  .column {
+    margin-bottom: 650px;
+    width: 60%; /* Set the width of the column */
+    height: 550px;
+    box-sizing: border-box; /* Include padding in the width of the column */
+  }
+}
+@media (max-width: 1915px) {
+  .column {
+    margin-bottom: 450px;
+    width: 60%; /* Set the width of the column */
+    height: 550px;
+    box-sizing: border-box; /* Include padding in the width of the column */
+  }
+}
+
 @media (max-width: 1200px) {
   .header-area .main-nav .logo {
     width: 30%;
@@ -2136,6 +2170,12 @@ responsive
 }
 
 @media (max-width: 992px) {
+  .column {
+    margin-bottom: 100px;
+    width: 80%; /* Set the width of the column */
+    height: 550px;
+    box-sizing: border-box; /* Include padding in the width of the column */
+  }
   .header-area .main-nav .logo {
     width: 28%;
     float: left;
@@ -2216,6 +2256,12 @@ responsive
 }
 
 @media (max-width: 767px) {
+  .column {
+    margin-bottom: 300px;
+    width: 80%; /* Set the width of the column */
+    height: 250px;
+    box-sizing: border-box; /* Include padding in the width of the column */
+  }
   .header-area .main-nav .logo {
     width: 50%;
     float: left;
@@ -2374,6 +2420,14 @@ responsive
 .testi-item h3 {
   text-transform: capitalize;
 }
+@media (max-width: 540px) {
+  .column {
+    margin-bottom: 150px;
+    width: 80%; /* Set the width of the column */
+    height: 250px;
+    box-sizing: border-box; /* Include padding in the width of the column */
+  }
+}
 
 /* Responsive */
 @media (max-width: 991px) {
@@ -2395,10 +2449,4 @@ responsive
   .testi-img {
     margin-bottom: 25px;
   }
-}
-.column {
-  margin-bottom: 150px;
-  width: 40%; /* Set the width of the column */
-  height: 550px;
-  box-sizing: border-box; /* Include padding in the width of the column */
 }
