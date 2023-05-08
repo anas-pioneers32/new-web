@@ -142,7 +142,7 @@
     // Add "loaded" class to the preloader after a 3 second delay
     setTimeout(function () {
       $("#js-preloader").addClass("loaded");
-    }, 500);
+    }, 500000);
   });
 
   // Window Resize Mobile Menu Fix

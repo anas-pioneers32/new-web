@@ -2124,24 +2124,39 @@ responsive
 */
 
 @media (max-width: 2690px) {
+  #js-preloader .preloader-inner {
+    margin-right: 80px;
+    margin-top: 0.5rem; /* Reduce the gap between the image and dots */
+    text-align: center;
+  }
   .column {
-    margin-bottom: 800px;
+    margin-bottom: 40%;
     width: 60%; /* Set the width of the column */
     height: 550px;
     box-sizing: border-box; /* Include padding in the width of the column */
   }
 }
 @media (max-width: 2250px) {
+  #js-preloader .preloader-inner {
+    margin-right: 120px;
+    margin-top: 0.5rem; /* Reduce the gap between the image and dots */
+    text-align: center;
+  }
   .column {
-    margin-bottom: 650px;
+    margin-bottom: 30%;
     width: 60%; /* Set the width of the column */
     height: 550px;
     box-sizing: border-box; /* Include padding in the width of the column */
   }
 }
 @media (max-width: 1915px) {
+  #js-preloader .preloader-inner {
+    margin-right: 113px;
+    margin-top: 0.5rem; /* Reduce the gap between the image and dots */
+    text-align: center;
+  }
   .column {
-    margin-bottom: 450px;
+    margin-bottom: 25%;
     width: 60%; /* Set the width of the column */
     height: 550px;
     box-sizing: border-box; /* Include padding in the width of the column */
@@ -2149,6 +2164,17 @@ responsive
 }
 
 @media (max-width: 1200px) {
+  #js-preloader .preloader-inner {
+    margin-left: 57px;
+    margin-top: 0.5rem; /* Reduce the gap between the image and dots */
+    text-align: center;
+  }
+  .column {
+    margin-bottom: 10%;
+    width: 60%; /* Set the width of the column */
+    height: 550px;
+    box-sizing: border-box; /* Include padding in the width of the column */
+  }
   .header-area .main-nav .logo {
     width: 30%;
     float: left;
@@ -2170,9 +2196,14 @@ responsive
 }
 
 @media (max-width: 992px) {
+  #js-preloader .preloader-inner {
+    margin-left: 73px;
+    margin-top: 0.5rem; /* Reduce the gap between the image and dots */
+    text-align: center;
+  }
   .column {
-    margin-bottom: 100px;
-    width: 80%; /* Set the width of the column */
+    margin-bottom: 5%;
+    width: 60%; /* Set the width of the column */
     height: 550px;
     box-sizing: border-box; /* Include padding in the width of the column */
   }
@@ -2257,7 +2288,7 @@ responsive
 
 @media (max-width: 767px) {
   .column {
-    margin-bottom: 300px;
+    margin-bottom: 40%;
     width: 80%; /* Set the width of the column */
     height: 250px;
     box-sizing: border-box; /* Include padding in the width of the column */
@@ -2355,6 +2386,11 @@ responsive
 }
 
 @media (max-width: 400px) {
+  #js-preloader .preloader-inner {
+    margin-left: 100px;
+    margin-top: 0.5rem; /* Reduce the gap between the image and dots */
+    text-align: center;
+  }
   .services .icon img {
     margin: 0px;
     max-width: 40px;
@@ -2422,7 +2458,7 @@ responsive
 }
 @media (max-width: 540px) {
   .column {
-    margin-bottom: 150px;
+    margin-bottom: 28%;
     width: 80%; /* Set the width of the column */
     height: 250px;
     box-sizing: border-box; /* Include padding in the width of the column */
