@@ -1073,6 +1073,10 @@ preloader
   visibility: hidden;
   pointer-events: none;
 }
+.possition {
+  position: absolute;
+  margin-top: 12%;
+}
 
 @-webkit-keyframes dot {
   50% {
@@ -2312,6 +2316,15 @@ responsive
 }
 
 @media (max-width: 767px) {
+  #js-preloader img {
+    margin-left: 12px;
+    max-width: 80%;
+    max-height: 90%;
+  }
+  .possition {
+    position: absolute;
+    margin-top: 18%;
+  }
   .header-area .main-nav .logo h4 {
     font-size: 30px;
   }
