@@ -1182,19 +1182,19 @@
                           </fieldset>
                           <fieldset>
                             <input
-                              type="text"
+                              type="email"
                               name="email"
                               id="email"
                               pattern="[^ @]*@[^ @]*"
                               placeholder="Your Email"
-                              required=""
+                              required
                             />
                           </fieldset>
                           <fieldset>
                             <input
-                              type="subject"
-                              name="subject"
-                              id="subject"
+                              type="hidden"
+                              name="_subject"
+                              value="New submission!"
                               placeholder="Subject"
                               autocomplete="on"
                             />
@@ -1208,7 +1208,7 @@
                               class="form-control"
                               id="message"
                               placeholder="Message"
-                              required=""
+                              required
                             ></textarea>
                           </fieldset>
                         </div>
